@@ -1,5 +1,5 @@
 {
-  "name": "docx2pdf",
+  "name": "docxtopdf",
   "version": "0.0.1",
   "description": "convert docx file to html then to pdf with pdfmake",
   "keywords": [
@@ -9,6 +9,10 @@
   ],
   "license": "Apache-2.0",
   "author": "bleek@xjtime.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifeda/docx2pdf.git"
+  },
   "main": "index.js",
   "scripts": {
     "build": "tsup",
