@@ -36,7 +36,7 @@
 
 ## 安装
 
-`npm install -S docx2pdf`
+`npm install -S docx-make-pdf`
 
 ## 使用
 

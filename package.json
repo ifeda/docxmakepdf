@@ -1,5 +1,5 @@
 {
-  "name": "docxtopdf",
+  "name": "docx-make-pdf",
   "version": "0.0.1",
   "description": "convert docx file to html then to pdf with pdfmake",
   "keywords": [
