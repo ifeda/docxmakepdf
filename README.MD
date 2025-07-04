@@ -1,4 +1,4 @@
-# docx2pdf
+# docx-make-pdf
 
 在后端（nodeJs环境）将docx文档转换为pdf。搭配docx-template可以实现生成订单。
 
@@ -41,7 +41,7 @@
 ## 使用
 
 ```typescript
-import docx2pdf from "docx2pdf"
+import docx2pdf from "docx-make-pdf"
 docx2pdf({
     docxFile:string, //docx文件路径，绝对路径
     docxBuffer:Buffer, //docx文件内容
@@ -66,7 +66,7 @@ docx2pdf({
 
 因为字体面临版权问题，所以pdfmake没有内置字体，也没有读取计算机/服务器上已经安装的字体，所以需要您自己制作已经获取版权的字体数据并加载。
 
-docx2pdf内置了开源免费商用的思源宋体，如果您要添加字体，必须先加工vfs，然后定义字体名称和文件名对应关系。因为pdfmake说明较少，很多人容易糊涂，所以这里详细说明一下：
+docx-make-pdf内置了开源免费商用的思源宋体，如果您要添加字体，必须先加工vfs，然后定义字体名称和文件名对应关系。因为pdfmake说明较少，很多人容易糊涂，所以这里详细说明一下：
 
 1. **加工vfs** 
 
