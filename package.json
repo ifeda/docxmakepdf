@@ -11,7 +11,7 @@
   "author": "bleek@xjtime.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifeda/docx2pdf.git"
+    "url": "git+https://github.com/ifeda/docxmakepdf.git"
   },
   "main": "index.js",
   "scripts": {
