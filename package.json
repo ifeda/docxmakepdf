@@ -1,0 +1,31 @@
+{
+  "name": "docx2pdf",
+  "version": "0.0.1",
+  "description": "convert docx file to html then to pdf with pdfmake",
+  "keywords": [
+    "docx",
+    "pdf",
+    "pdfmake"
+  ],
+  "license": "Apache-2.0",
+  "author": "bleek@xjtime.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup",
+    "test": "ts-node ./test/index",
+    "vfs": "node build-vfs.js ./fonts ./src/vfs_fonts.js"
+  },
+  "dependencies": {
+    "docx-preview-node": "^0.3.6",
+    "jsdom": "^26.1.0",
+    "pdfmake": "^0.2.20"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/pdfmake": "^0.2.11",
+    "terser": "^5.43.1",
+    "tslib": "^2.8.1",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
