@@ -80,7 +80,7 @@ docx-make-pdf内置了开源免费商用的思源宋体，如果您要添加字�
 
 - filename: 存储vfs数据的文件，默认是build/vfs_fonts.js
 
-docx2pdf的package.json中内置了script可以参考下： `node build-vfs.js ./fonts ./src/vfs_fonts.js`
+docx-make-pdf的package.json中内置了script可以参考下： `node build-vfs.js ./fonts ./src/vfs_fonts.js`
 
 **加载使用：**
 
